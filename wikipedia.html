@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wikipedia Header Clone</title>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.wiki-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+/* Left part */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.left img {
+  width: 45px;
+  height: auto;
+}
+
+.title h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.title span {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Right part */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right .icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.right a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #3366cc;
+}
+.vector{
+    color: #3366cc;
+}
+.container{
+  /* border: 2px solid black; */
+  height: 150vh;
+  width: 100vw;
+}
+.child1{
+  
+  height: 150vh;
+  width: 30vh;
+  float: right;
+  /* border-bottom: 1px solid black; */
+ 
+  
+  
+}
+.child1 h3{
+  border-bottom: 2px solid #eaecf0;
+  
+}
+.child1 p{
+  
+  border-bottom: 2px solid #eaecf0;
+  
+}
+.child1 h4{
+  border-bottom: 2px solid #eaecf0;
+  
+}
+.child1 h5{
+  border-bottom: 2px solid #eaecf0;
+  
+
+}
+.child2{
+  /* border: 2px solid black; */
+  height: 150vh;
+  width: 72vw;
+margin-left: 10%;
+}
+.child2 h1{
+  border-bottom: 2px solid #eaecf0;
+
+
+}
+.pea1{
+  float: right;
+  margin-top: 0%;
+  border-bottom: 2px solid #eaecf0;
+  
+  
+}
+.art1{
+  border-bottom: 2px solid #eaecf0;
+
+  
+}
+.image1{
+  border: 2px solid black;
+  height: 850px;
+  width: 300px;
+  float: right;
+}
+.peacock1{
+  border: 2px solid black;
+  height: 100px;
+  width: 280px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: wheat;
+
+  .peacock3 p a{
+    text-decoration: none;
+  }
+
+}
+.peacock2{
+  justify-items: center;
+}
+.peacock3{
+  margin-left: 3%;
+  margin-top: 2%;
+  text-decoration: none;
+  
+}
+.sci{
+  border: 1px solid black;
+  height: 30px;
+  width: 290px;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color: wheat;
+
+}
+.sci a{
+margin-left: 15%;
+}
+.order{
+  margin-left: 10%;
+}
+.peacock4{
+  height: 30px;
+  width: 290px;
+  border: 2px solid black;
+  margin-left: 1%;
+  margin-top: 2%;
+  background-color: wheat;
+}
+.peacock4 h3{
+  margin-left: 15%;
+}
+.pea5{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.pea2{
+  border: 2px solid black;
+  height: 25px;
+  width: 290px;
+  margin-top: 15%;
+  background-color: wheat;
+  margin-left: 1%;
+  
+}
+.rio{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.halfc{
+  /* border: 2px solid black; */
+  height: 850px;
+  width: 560px;
+  margin-top: 3%;
+
+}
+.underheader h4{
+  border-bottom: 3px solid #eaecf0;
+
+  
+}
+
+</style>
+</head>
+<body>
+  
+  <header class="wiki-header">
+    
+    <div class="left">
+      <div class="menu">&#9776;</div> 
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Wikipedia Logo">
+      <div class="title">
+        <h1>WIKIPEDIA</h1>
+        <span>The Free Encyclopedia</span>
+      </div>
+    </div>
+
+    
+    <div class="right">
+      <span class="icon">🔍</span>
+      <span class="icon">∞</span>
+      <a href="#">Donate</a>
+      <a href="#">Create account</a>
+      <a href="#">Log in</a>
+      <span class="icon">⋮</span>
+    </div>
+    </header>
+
+
+    
+</div>
+<div class="container">
+  <div class="child1">
+    <h3>Appearance 
+    <button>Hide</button><br>
+
+  </h3>
+  <p>text</p>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">small</label>
+  </div><br>
+  <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">standard</label>
+  <div><br>
+     <input type="radio" id="large" name="drone" value="standard" >
+    <label for="standard">Large</label>
+  </div><br>
+  <h4>Width</h4>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">small</label>
+  </div><br>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">standard</label>
+
+
+  </div><br>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">Large</label>
+
+
+  </div><br>
+  <h5>color</h5>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">Black</label>
+  </div><br>
+  <div>
+    <input type="radio" id="small" name="drone" value="small" >
+    <label for="small">Blue</label>
+  </div><br>
+
+
+
+
+  </div>
+  <div class="child2">
+    <h1>Peafowl</h1>
+   <div class="art1">
+    <a href="#">article</a>
+    <a href="#">Talk</a>
+    <div class="pea1">
+    <a href="#">Read</a>
+    <a href="#">Edit</a>
+    <a href="#">view history</a>
+    <a href="#">Tools</a>
+   </div>
+   </div><br>
+   <div class="container2">
+    <div>
+      <p>"Peacock" redirects here. For the <a href="#">peacocks(streaming service)</a>,. For other uses, see <a href="#">peacocks(disambiguation)</a>.</p>
+    </div><br>
+    <div>
+      <p>Peafowl is a common name for two bird species of the genus <a href="#">pavo</a> and one species of the closely related genus <a href="#">afropavo</a> within the tribe <a href="#">pavoni</a> of the family Phasianidae (the pheasants and their allies). Male peafowl are referred to as peacocks, and female peafowl are referred to as <a href="#">peahens</a>.</p>
+ </div>
+   
+    
+    <div class="image1">
+      <div class="peacock1">
+       <div class="peacock2">
+        <h4>peafowl</h4>
+        <p>Temporal range: 3–0 <a href="">Ma</a> </p>
+        <p>Late <a href="">Pliocene</a> – present</p>
+       </div>
+
+      </div>
+      <div class="peacock3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/500px-Peacock_Plumage.jpg" alt="peacockimg" width="280">
+        <p><a href="#">Indian peacock</a> displaying his train</p>
+      </div>
+      <div class="sci">
+        <a href="">scientific classificiation</a>
+
+      </div>
+      <div class="order">
+        <div>
+          <ul>
+            <li>Kingdom:		 <a href="">Animalia</a></li>
+           <li>Phylum:	  <a href="">Chordata</a></li>
+            <li>Class:	<a href="">Aves</a></li>
+
+            <li>Phylum:	 Chordata</li>
+            <li>Phylum:	  Chordata</li>
+            <li>Phylum:	Chordata</li>
+          </ul>
+        </div>
+      </div>
+      <div class="peacock4">
+        <div>
+     <h3>Groups included</h3>
+
+        </div>
+        <div class="pea5">
+          <ul>
+            <li><a href="">Pavo</a></li>
+            <li><a href="">Afropavo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pea2">
+        <div>
+          <p>Cladistically included 
+</p>
+
+        </div>
+        
+     <div class="rio">
+      <ul>
+        <li>
+          <a href="">Rheinardia</a>
+
+        </li>
+        <li><a href="">Argusianus</a></li>
+      </ul>
+      </div>
+    
+    </div>
+    
+    </div>
+    <div class="halfc">
+      <div>
+        <p>The two Asiatic species are the blue or <a href="">Indian peafowl</a> originally from the <a href="">Indian subcontinent</a>, and the <a href="">green peafowl</a> from Southeast Asia. The third peafowl species, the <a href="">Congo peafowl</a>, is native only to the <a href="">Congo Basin</a>. Male peafowl are known for their piercing calls and their extravagant plumage. The latter is especially prominent in the Asiatic species, which have an eye-spotted "tail" or "train" of <a href="">covert feathers</a>, which they display as part of a <a href="">courtship</a> ritual.
+
+</p><br>
+<p>The functions of the elaborate <a href="">iridescent</a> coloration and large "train" of peacocks have been the subject of extensive scientific debate. <a href="">Charles Darwin</a> suggested that they served to attract females, and the showy features of the males had evolved by sexual selection. More recently, <a href="">Amotz Zahavi</a> proposed in his <a href="">handicap principle</a> that these features <a href="">acted as honest</a> signals of the males' fitness, since less-fit males would be disadvantaged by the difficulty of surviving with such large and conspicuous structures.
+
+</p>
+<div class="underheader">
+  <div><br>
+    <h4>Description</h4>
+  </div>
+  <div class="pea7">
+  <div>
+    <p>The Indian peacock (Pavo cristatus) has iridescent blue and green plumage, mostly metal-like blue and green. In both species, females are a little smaller than males in terms of weight and wingspan, but males are significantly longer due to the "tail", also known as a "train".[1] The peacock train consists not of tail quill feathers but highly elongated upper tail coverts. These feathers are marked with eyespots, best seen when a peacock fans his tail. All species have a crest atop the head. The Indian peahen has a mixture of dull grey, brown, and green in her plumage. The female also displays her plumage to ward off female competition or signal danger to her young.
+
+</p>
+  </div><br>
+  <div>
+    Male <a href="">green peafowls</a> (Pavo muticus) have green and bronze or gold plumage, and black wings with a sheen of blue. Unlike Indian peafowl, the green peahen is similar to the male, but has shorter upper tail coverts, a more coppery neck, and overall less iridescence. Both males and females have spurs.[2][page needed]
+  </div>
+  </div><br>
+  <div>
+    The <a href="">Congo peacock</a> (Afropavo congensis) male does not display his covert feathers, but uses his actual tail feathers during courtship displays. These feathers are much shorter than those of the Indian and green species, and the ocelli are much less pronounced. Females of the Indian and African species are dull grey and/or brown.
+
+Chicks of both sexes in all the species are cryptically colored. They vary between yellow and tawny, usually with patches of darker brown or light tan and "dirty white" ivory.
+
+Mature peahens have been recorded as suddenly growing typically male peacock plumage and making male calls.[3] Research has suggested that changes in mature birds are due to a lack of estrogen from old or damaged ovaries, and that male plumage and calls are the default unless hormonally suppressed.[4]
+  </div>
+</div>
+      
+   
+   
+  </div>
+  <div class="child3"></div>
+</div>
+    
+
+        
+   
+
+</body>
+</html>
